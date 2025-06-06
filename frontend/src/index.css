@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-1: var(--bg-1);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
+  --color-button: var(--button);
+  --color-button-hover: var(--button-hover);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-white: var(--white);
+  --color-white-2: var(--white-2);
+  --color-button-text: var(--button-text);
+  --font-family: "Albert Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+:root {
+  --bg-1: #f3f8ff; /* Lightest background */
+  --bg-2: #e8eff9; /* Slightly darker background for contrast sections */
+  --bg-3: #ccd6e33c; /* Translucent accent/sectional background */
+  --button: #e2e8f0; /* Button background */
+  --button-hover: #d4dce5; /* Button hover background */
+  --border: #cbd5e1; /* Subtle but visible border */
+  --accent: #007acc; /* Retained a strong, noticeable accent */
+  --white: #2d3748; /* Near-black for main text */
+  --white-2: #4a5568; /* Medium gray for secondary text */
+  --button-text: #334155; /* Muted blue-gray for button text */
+}
+
+.dark {
+  --bg-1: #0e1217;
+  --bg-2: #151b22;
+  --bg-3: #4d596a3c;
+  --button: #262e39;
+  --button-hover: #2b3849;
+  --border: #2d3135;
+  --accent: #25d3ff;
+  --white: #c1d0e2;
+  --white-2: #b1b1b1;
+  --button-text: #4d596a;
+}
+
+.warm-coffee {
+  --bg-1: #1a1612;
+  --bg-2: #241f1a;
+  --bg-3: #6a5d4d3c;
+  --button: #3a332a;
+  --button-hover: #453a2f;
+  --border: #3d352d;
+  --accent: #f59e0b;
+  --white: #e8ddc5;
+  --white-2: #c9b8a1;
+  --button-text: #7d6a5a;
+}
+
+/* Alternative Theme: Forest Green */
+.forest-green {
+  --bg-1: #0e1a14;
+  --bg-2: #152218;
+  --bg-3: #4d6a553c;
+  --button: #263a2d;
+  --button-hover: #2b4a34;
+  --border: #2d3530;
+  --accent: #10b981;
+  --white: #c5e8d4;
+  --white-2: #a1c9b1;
+  --button-text: #5a7d65;
+}
+
+/* Alternative Theme: Sunset Orange */
+.sunset-orange {
+  --bg-1: #1a120e;
+  --bg-2: #221a15;
+  --bg-3: #6a554d3c;
+  --button: #3a2d26;
+  --button-hover: #4a352b;
+  --border: #35302d;
+  --accent: #f97316;
+  --white: #e8d4c5;
+  --white-2: #c9b1a1;
+  --button-text: #7d655a;
+}
+
+.midnight-purple {
+  --bg-1: #0f0e1a;
+  --bg-2: #1a1825;
+  --bg-3: #5a4d6a3c;
+  --button: #2d263a;
+  --button-hover: #372b4a;
+  --border: #332d35;
+  --accent: #a855f7;
+  --white: #d4c5e8;
+  --white-2: #b8a5c9;
+  --button-text: #6a5a7d;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #ffffff00;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
