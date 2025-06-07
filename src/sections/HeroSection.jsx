@@ -17,7 +17,7 @@ const HeroSection = () => {
         <p className="font-extrabold text-3xl sm:text-6xl mb-6">
           Caleb Lamptey
         </p>
-        <p className="font-mono sm:w-3/5 sm:min-w-md w-full leading-6 text-white-2 font-extralight text-sm sm:text-md text-justify">
+        <p className="font-mono sm:w-3/5 sm:min-w-md w-full leading-6 text-white-2 font-light text-sm sm:text-md text-justify">
           Welcome to my portfolio; the statement of my personality, interests
           and general career path. Take a look around and don't hesitate to
           contact me if you see something you like. ;)

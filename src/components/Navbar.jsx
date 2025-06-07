@@ -101,9 +101,9 @@ const Navbar = () => {
     <div className="flex justify-center relative z-50">
       <nav
         ref={navRef}
-        className={`bg-bg-2/50 backdrop-blur-xs h-14 flex justify-center items-center fixed rounded-full w-fit ${
-          isSmall ? "pr-2 pl-2 bottom-10" : "pr-4 pl-5 top-4"
-        }`}
+        className={`bg-bg-2/50 backdrop-blur-xs h-14 flex justify-center items-center fixed rounded-full w-fit pr-4 pl-5 top-4
+          `}
+        // ${isSmall ? "pr-2 pl-2 bottom-10" : "pr-4 pl-5 top-4"}
       >
         <div
           ref={blobRef}

@@ -24,7 +24,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--white)" }}
           date="2025"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-bg-2 lg:text-white-2 font-mono text-xs font-light"
           iconStyle={{
             background: "var(--white)",
             color: "var(--bg-1)",
@@ -55,7 +55,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--white)" }}
           date="2024-present"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-bg-2 lg:text-white-2 font-mono text-xs font-light"
           iconStyle={{
             background: "var(--white)",
             color: "var(--bg-1)",
@@ -86,7 +86,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--bg-2)" }}
           date="2020-2024"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-white font-mono text-xs font-light"
           iconStyle={{
             background: "var(--bg-2)",
             color: "var(--white)",
@@ -122,7 +122,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--white)" }}
           date="2024-2025"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-bg-2 lg:text-white-2 font-mono text-xs font-light"
           iconStyle={{
             background: "var(--white)",
             color: "var(--bg-1)",
@@ -154,7 +154,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--white)" }}
           date="2023"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-bg-2 lg:text-white-2 font-mono text-xs font-light"
           iconStyle={{
             background: "var(--white)",
             color: "var(--bg-1)",
@@ -186,7 +186,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--white)" }}
           date="2023"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-bg-2 lg:text-white-2 font-mono text-xs font-light"
           iconStyle={{
             background: "var(--white)",
             color: "var(--bg-1)",
@@ -219,7 +219,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--white)" }}
           date="2022"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-bg-2 lg:text-white-2 font-mono text-xs font-light"
           iconStyle={{
             background: "var(--white)",
             color: "var(--bg-1)",
@@ -251,7 +251,7 @@ const Timeline = (props) => {
           }}
           contentArrowStyle={{ borderRight: "8px solid  var(--bg-2)" }}
           date="2017-2020"
-          dateClassName="text-white-2 font-mono text-xs font-light"
+          dateClassName="text-white font-mono text-xs font-light"
           iconStyle={{
             background: "var(--bg-2)",
             color: "var(--white)",

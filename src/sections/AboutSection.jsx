@@ -135,7 +135,7 @@ const AboutSection = () => {
             </div>
             <div className="w-full lg:w-1/2 p-3">
               <p className="font-bold text-3xl mb-3">who am i?</p>
-              <p className="font-extralight text-justify text-white-2 text-sm leading-6 font-mono">
+              <p className="font-light text-justify text-white-2 text-sm leading-6 font-mono">
                 {/* Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type.
                 Lorem Ipsum has been the industry's standard dummy text ever

@@ -29,7 +29,7 @@ export const RevealLinks = () => {
           calebniilantei@gmail.com
         </div>
       </div>
-      <div className="absolute left-0 flex w-full justify-center bottom-5 text-button-text">
+      <div className="absolute left-0 flex w-full justify-center bottom-5 text-xs sm:text-sm text-button-text">
         © 2025 Caleb Lamptey. All Rights Reserved
       </div>
     </section>
