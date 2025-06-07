@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import LeftBlob from "./components/LeftBlob";
-import HeroSection from "./sections/heroSection";
+import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import ParticleRing from "./components/ParticleRing";
 import ProjectSection from "./sections/ProjectSection";
