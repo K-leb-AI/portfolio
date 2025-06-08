@@ -12,7 +12,6 @@ import CVUrl from "../../public/Caleb Nii Lantei Lamptey.pdf";
 import SquareButtons from "./SquareButtons";
 
 const Sidebar = () => {
-  const [isDark, setIsDark] = useState(true);
   // const handleClick = () => {
   //   setIsDark(!isDark);
   //   document.documentElement.classList.toggle("dark");
