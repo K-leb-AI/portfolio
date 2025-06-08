@@ -126,17 +126,19 @@ const DevTab = () => {
           ]}
         />
       </div>
-      <ProjectCard
-        title="foodie"
-        activeIndex="0"
-        index="1"
-        icon={<FaGithub className="text-button-text size-5" />}
-        stack={[
-          <IoLogoJavascript className="text-button-text size-4" />,
-          <FaHtml5 className="text-button-text size-4" />,
-          <IoLogoCss3 className="text-button-text size-4" />,
-        ]}
-      />
+      <a href="https://foodieproject.tiiny.site" target="_blank">
+        <ProjectCard
+          title="foodie"
+          activeIndex="0"
+          index="1"
+          icon={<FaGithub className="text-button-text size-5" />}
+          stack={[
+            <IoLogoJavascript className="text-button-text size-4" />,
+            <FaHtml5 className="text-button-text size-4" />,
+            <IoLogoCss3 className="text-button-text size-4" />,
+          ]}
+        />
+      </a>
     </div>
   );
 };
