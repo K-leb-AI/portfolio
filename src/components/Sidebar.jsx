@@ -12,26 +12,9 @@ import CVUrl from "../../public/Caleb Nii Lantei Lamptey.pdf";
 import SquareButtons from "./SquareButtons";
 
 const Sidebar = () => {
-  // const handleClick = () => {
-  //   setIsDark(!isDark);
-  //   document.documentElement.classList.toggle("dark");
-  // };
   return (
-    <div className="h-screen w-24 bg-bg-2 py-5 fixed right-0 top-0 z-50 hidden md:block border-l-border border">
-      {/* Top section - Theme toggle */}
-      <div className="flex justify-center mb-8">
-        {/* <SquareButtons
-          icon={
-            isDark ? (
-              <LuMoon className="size-5 text-button-text" />
-            ) : (
-              <LuSun className="size-5 text-button-text" />
-            )
-          }
-          clickEvent={handleClick}
-        /> */}
-      </div>
-
+    <div className="h-screen w-24 bg-bg-2 py-5 fixed right-0 top-0 z-50 hidden md:block border-l-border border-l">
+      <div />
       {/* Middle section - Social links */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-1">
         <a

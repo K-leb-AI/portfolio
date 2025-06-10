@@ -43,7 +43,7 @@ const SquishyCard = (props) => {
       </div>
 
       <Background />
-      <div className="group-hover:opacity-45 opacity-0 duration-1300 ease-in-out absolute w-20 aspect-square bg-[#25d3ff] rounded-full -top-13 -left-13 backdrop-blur-xl blur-3xl"></div>
+      <div className="group-hover:opacity-45 opacity-0 duration-1300 ease-in-out absolute w-20 aspect-square bg-accent rounded-full -top-13 -left-13 backdrop-blur-xl blur-3xl"></div>
     </motion.div>
   );
 };
@@ -82,11 +82,7 @@ const Background = () => {
         cx="130"
         cy="114.5"
         r="101.5"
-        fill={
-          document.documentElement.classList.contains("dark")
-            ? "#12161c"
-            : "#f3f8ff97"
-        }
+        className="fill-squish"
       />
       <motion.ellipse
         variants={{
@@ -104,11 +100,7 @@ const Background = () => {
         cy="265.5"
         rx="101.5"
         ry="43.5"
-        fill={
-          document.documentElement.classList.contains("dark")
-            ? "#12161c"
-            : "#f3f8ff97"
-        }
+        className="fill-squish"
       />
     </motion.svg>
   );

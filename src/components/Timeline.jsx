@@ -165,7 +165,7 @@ const Timeline = (props) => {
           position="right"
         >
           <h3 className="font-bold text-bg-1">Database Management Intern</h3>
-          <h3 className="font-mono text-xs font-semibold mt-1 text-bg-1">
+          <h3 className="text-xs font-semibold mt-1 text-bg-1">
             Agricultural Development Bank
           </h3>
           <div className="flex flex-wrap gap-1 mt-4">
@@ -230,9 +230,7 @@ const Timeline = (props) => {
           position="right"
         >
           <h3 className="font-bold text-bg-1">Junior Frontend Developer</h3>
-          <h3 className="font-mono text-xs font-semibold mt-1 text-bg-1">
-            Qasemo
-          </h3>
+          <h3 className="text-xs font-semibold mt-1 text-bg-1">Qasemo</h3>
           <div className="flex flex-wrap gap-1 mt-4">
             <h1 className="text-bg-1 font-light leading-4 text-xs pl-3 border-l-3 border-bg-1 italic">
               Developed landing pages, ensuring responsive and engaging user
@@ -262,7 +260,7 @@ const Timeline = (props) => {
           position="left"
         >
           <h3 className="font-bold text-white">General Science</h3>
-          <h3 className="font-mono text-xs font-semibold mt-1 text-white-2">
+          <h3 className="text-xs font-semibold mt-1 text-white-2">
             Mfantsipim School
           </h3>
           <div className="flex flex-wrap gap-1 mt-4">

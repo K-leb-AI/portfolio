@@ -14,7 +14,7 @@ const Testimonials = () => {
       <p className="font-bold text-3xl mb-4">
         what some people think about my work
       </p>
-      <p className="font-extralight text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
+      <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
         I'm grateful to have worked with and for a number of people over the
         years and this is what they have to say about me.
       </p>

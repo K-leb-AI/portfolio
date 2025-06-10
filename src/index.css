@@ -10,6 +10,7 @@
   --color-accent: var(--accent);
   --color-white: var(--white);
   --color-white-2: var(--white-2);
+  --color-squish: var(--squish);
   --color-button-text: var(--button-text);
   --font-family: "Albert Sans", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
@@ -41,6 +42,7 @@ body {
   --white: #2d3748; /* Near-black for main text */
   --white-2: #4a5568; /* Medium gray for secondary text */
   --button-text: #334155; /* Muted blue-gray for button text */
+  --squish: #f3f8ff97;
 }
 
 .dark {
@@ -54,9 +56,10 @@ body {
   --white: #c1d0e2;
   --white-2: #b1b1b1;
   --button-text: #4d596a;
+  --squish: #12161c;
 }
 
-.warm-coffee {
+.coffee {
   --bg-1: #1a1612;
   --bg-2: #241f1a;
   --bg-3: #6a5d4d3c;
@@ -67,10 +70,11 @@ body {
   --white: #e8ddc5;
   --white-2: #c9b8a1;
   --button-text: #7d6a5a;
+  --squish: #1c1912;
 }
 
 /* Alternative Theme: Forest Green */
-.forest-green {
+.forest {
   --bg-1: #0e1a14;
   --bg-2: #152218;
   --bg-3: #4d6a553c;
@@ -81,10 +85,11 @@ body {
   --white: #c5e8d4;
   --white-2: #a1c9b1;
   --button-text: #5a7d65;
+  --squish: #121c12;
 }
 
 /* Alternative Theme: Sunset Orange */
-.sunset-orange {
+.sunset {
   --bg-1: #1a120e;
   --bg-2: #221a15;
   --bg-3: #6a554d3c;
@@ -95,9 +100,10 @@ body {
   --white: #e8d4c5;
   --white-2: #c9b1a1;
   --button-text: #7d655a;
+  --squish: #1c1612;
 }
 
-.midnight-purple {
+.purple {
   --bg-1: #0f0e1a;
   --bg-2: #1a1825;
   --bg-3: #5a4d6a3c;
@@ -108,6 +114,7 @@ body {
   --white: #d4c5e8;
   --white-2: #b8a5c9;
   --button-text: #6a5a7d;
+  --squish: #17121c;
 }
 
 /* ---- particles.js container ---- */
