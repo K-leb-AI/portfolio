@@ -160,14 +160,14 @@ const DesignTab = (props) => {
     <div className="aspect-ratio grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full">
       <div className="col-span-full bg-bg-3 mb-2 place-items-center h-[60vh]">
         {swiperList.length == 0 ? (
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center h-full">
             <DotLottieReact
               src={animation}
               loop
               autoplay
-              className="aspect-auto h-96 opacity-25"
+              className="aspect-auto h-50 opacity-25"
             />
-            <p className="text-white-2/30">click on a project</p>
+            <p className="text-white-2/30">select a project</p>
           </div>
         ) : (
           <Swiper

@@ -117,10 +117,7 @@ const DevTab = () => {
           index="1"
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
-            <SiMongodb className="text-button-text size-4" />,
-            <SiExpress className="text-button-text size-4" />,
             <FaReact className="text-button-text size-4" />,
-            <FaNodeJs className="text-button-text size-4" />,
             <RiTailwindCssFill className="text-button-text size-4" />,
             <CgFigma className="text-button-text size-4" />,
           ]}
