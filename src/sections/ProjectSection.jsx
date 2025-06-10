@@ -81,12 +81,12 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://example.com" target="_blank" rel="noopener noreferrer">
         <div className="flex justify-center items-center gap-2 py-2 px-5 bg-button text-button-text hover:text-bg-1 hover:bg-white rounded-full duration-300 text-sm mt-4">
           See some more
           <FaArrowRight />
         </div>
-      </a>
+      </a> */}
     </div>
   );
 };
