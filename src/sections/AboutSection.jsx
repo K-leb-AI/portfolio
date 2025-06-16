@@ -31,9 +31,9 @@ const AboutSection = () => {
     {
       icon: <FaReact className="size-5" />,
       name: "ReactJs",
-      borderColor: "border-accent",
-      bgColor: "bg-accent/10",
-      textColor: "text-accent",
+      borderColor: "border-[#25d3ff]",
+      bgColor: "bg-[#25d3ff]/10",
+      textColor: "text-[#25d3ff]",
     },
     {
       icon: <RiNextjsFill className="size-5" />,
@@ -87,9 +87,9 @@ const AboutSection = () => {
     {
       icon: <RiTailwindCssFill className="size-5" />,
       name: "TailwindCSS",
-      borderColor: "border-accent",
-      bgColor: "bg-accent/10",
-      textColor: "text-accent",
+      borderColor: "border-[#25d3ff]",
+      bgColor: "bg-[#25d3ff]/10",
+      textColor: "text-[#25d3ff]",
     },
     {
       icon: <SiAdobephotoshop className="size-5" />,
@@ -133,7 +133,7 @@ const AboutSection = () => {
                 style={{ backgroundImage: `url(${profile})` }}
               />
             </div>
-            <div className="w-full lg:w-1/2 p-3">
+            <div className="w-full lg:w-1/2 py-3 md:p-3">
               <p className="font-bold text-3xl mb-3">who am i?</p>
               <p className="font-light text-justify text-white-2 text-sm leading-6 font-mono">
                 {/* Lorem Ipsum has been the industry's standard dummy text ever

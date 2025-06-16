@@ -88,7 +88,7 @@ const Theme = () => {
       {isMenuOpen && (
         <ul
           ref={menuRef}
-          className="absolute bg-button -left-26 top-0 rounded-lg p-1 shadow-lg animate-fade-in w-[100px]"
+          className="absolute bg-button -left-11 sm:-left-26 top-0 rounded-lg p-1 shadow-lg animate-fade-in sm:w-[100px]"
           style={{
             animation: "fadeIn 0.2s ease-out",
           }}
@@ -105,16 +105,16 @@ const Theme = () => {
                 className="w-4 aspect-square rounded-full"
                 style={{ backgroundColor: theme.color, opacity: "60%" }}
               />
-              <span className="flex-1">{theme.name}</span>
+              <span className="hidden sm:flex flex-1">{theme.name}</span>
               {activeTheme === theme.name && (
-                <span className="text-[8px]">✓</span>
+                <span className="hidden sm:flex text-[8px]">✓</span>
               )}
             </li>
           ))}
         </ul>
       )}
 
-      <style jsx>{`
+      <style>{`
         @keyframes fadeIn {
           from {
             opacity: 0;

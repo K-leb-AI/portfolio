@@ -53,7 +53,7 @@ const DevTab = () => {
         <div className="size-14 rounded-full bg-white flex items-center justify-center mb-5">
           {<FaArrowRight className="text-bg-1" />}
         </div>
-        <p className="text-2xl xl:text-5xl leading-6 xl:leading-10 font-bold mb-4">
+        <p className="text-2xl xl:text-4xl leading-6 xl:leading-10 font-bold mb-4">
           check out some of my projects.
         </p>
         <p className="text-md font-extralight font-mono">

@@ -4,7 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaKey } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
@@ -38,9 +37,9 @@ const Timeline = (props) => {
           <h3 className="text-xs font-semibold mt-1 text-bg-1">Ed Emporia</h3>
           <div className="flex flex-wrap gap-1 mt-4">
             <h1 className="text-bg-1 font-light leading-4 text-xs pl-3 border-l-3 border-bg-1 italic">
-              Assist the startup by designing the product packages and
-              facilitating sales of components that enhance STEM education in
-              Ghana.
+              Assist the startup with brand and product packaging design and
+              facilitate sale of electronic components to help enhance STEM
+              education in Ghana.
             </h1>
           </div>
         </VerticalTimelineElement>
@@ -229,7 +228,7 @@ const Timeline = (props) => {
           icon={<FaBriefcase />}
           position="right"
         >
-          <h3 className="font-bold text-bg-1">Junior Frontend Developer</h3>
+          <h3 className="font-bold text-bg-1">Frontend Developer Intern</h3>
           <h3 className="text-xs font-semibold mt-1 text-bg-1">Qasemo</h3>
           <div className="flex flex-wrap gap-1 mt-4">
             <h1 className="text-bg-1 font-light leading-4 text-xs pl-3 border-l-3 border-bg-1 italic">

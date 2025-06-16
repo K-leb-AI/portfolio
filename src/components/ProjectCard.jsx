@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
   return (
     <div
       onClick={props.onClick}
-      className={`group w-full overflow-clip flex relative flex-col justify-between aspect-square ${
+      className={`group w-full overflow-clip flex relative flex-col aspect-square ${
         props.activeIndex == props.index ? "bg-bg-2" : "bg-bg-2/30"
       } hover:bg-bg-2 duration-1000 ease-in-out backdrop-blur-xs border border-border p-5 cursor-pointer`}
     >
@@ -15,10 +15,10 @@ const ProjectCard = (props) => {
         {props.title}
       </div>
 
-      <div className="flex justify-end z-10">
+      <div className="absolute right-5 z-10">
         <SquareButtons icon={props.icon} clickEvent={handleClick} />
       </div>
-      <div className="">
+      <div className="flex justify-end h-full flex-col">
         <p className="text-2xl xl:text-4xl font-bold text-white mb-5">
           {props.title}
         </p>
