@@ -14,6 +14,7 @@
   --color-button-text: var(--button-text);
   --font-family: "Albert Sans", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
+  --font-cursive: "Tangerine", cursive;
 }
 
 * {
@@ -32,17 +33,17 @@ body {
 }
 
 :root {
-  --bg-1: #f3f8ff; /* Lightest background */
-  --bg-2: #e8eff9; /* Slightly darker background for contrast sections */
-  --bg-3: #ccd6e33c; /* Translucent accent/sectional background */
-  --button: #e2e8f0; /* Button background */
-  --button-hover: #d4dce5; /* Button hover background */
-  --border: #cbd5e1; /* Subtle but visible border */
-  --accent: #007acc; /* Retained a strong, noticeable accent */
-  --white: #2d3748; /* Near-black for main text */
-  --white-2: #4a5568; /* Medium gray for secondary text */
-  --button-text: #334155; /* Muted blue-gray for button text */
-  --squish: #f3f8ff97;
+  --bg-1: #f7f9fc; /* Lightest background */
+  --bg-2: #eef1f5; /* Slightly darker panel background */
+  --bg-3: #d9e1ec3c; /* Subtle translucent overlay */
+  --button: #d3dce6; /* Button background */
+  --button-hover: #c2ccd8; /* Button hover state */
+  --border: #c5cbd3; /* Light border */
+  --accent: #007ea7; /* Accent color, a toned-down sky blue */
+  --white: #2a2f36; /* Dark text on light background */
+  --white-2: #4d4d4d; /* Secondary text */
+  --button-text: #8a99ab; /* Button label text */
+  --squish: #e9edf2; /* Background element like squish */
 }
 
 .dark {
