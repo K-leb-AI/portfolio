@@ -15,7 +15,7 @@ const Theme = () => {
     { name: "light", color: "#f9fafb" },
     { name: "coffee", color: "#f59e0b" },
     { name: "forest", color: "#10b981" },
-    { name: "sunset", color: "#f97316" },
+    // { name: "sunset", color: "#f97316" },
     { name: "purple", color: "#a855f7" },
   ];
 
@@ -88,7 +88,7 @@ const Theme = () => {
       {isMenuOpen && (
         <ul
           ref={menuRef}
-          className="absolute bg-button -left-11 sm:-left-26 top-0 rounded-lg p-1 shadow-lg animate-fade-in sm:w-[100px]"
+          className="absolute bg-button left-0 sm:-left-26 top-[110%] sm:top-0 rounded-lg p-1 shadow-lg animate-fade-in sm:w-[100px]"
           style={{
             animation: "fadeIn 0.2s ease-out",
           }}
@@ -96,13 +96,13 @@ const Theme = () => {
           {themes.map((theme, index) => (
             <li
               key={theme.name}
-              className={`px-2 py-1 text-xs flex gap-2 items-center hover:bg-bg-2 rounded-lg text-button-text transition-all duration-200 cursor-pointer capitalize ${
+              className={`px-1.5 py-1 text-xs flex gap-2 items-center hover:bg-bg-2 rounded-lg text-button-text transition-all duration-200 cursor-pointer capitalize ${
                 activeTheme === theme.name ? "bg-bg-2" : ""
               }`}
               onClick={(e) => handleThemeSelect(theme.name, e)}
             >
               <div
-                className="w-4 aspect-square rounded-full"
+                className="w-6 sm:w-4 aspect-square rounded-full"
                 style={{ backgroundColor: theme.color, opacity: "60%" }}
               />
               <span className="hidden sm:flex flex-1">{theme.name}</span>

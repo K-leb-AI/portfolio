@@ -25,7 +25,7 @@ const HeroSection = () => {
             tech
           </span>
           and
-          <span className="duration-300 font-cursive flex items-center mx-2 text-2xl leading-5">
+          <span className="duration-300 font-cursive flex items-center mx-2 text-2xl leading-5  ">
             design.
           </span>
         </p>
