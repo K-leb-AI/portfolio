@@ -38,7 +38,6 @@ const ZustandLogo = (props) => {
   );
 };
 const portfolioNotify = () => {
-  console.log("red");
   toast("You're already here. Made you click! 😂");
 };
 

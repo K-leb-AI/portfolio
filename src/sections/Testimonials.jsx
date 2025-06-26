@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="flex items-center justify-center bg-button w-fit rounded-full p-4 mb-10">
         <FaCommentAlt className="text-button-text size-4" />
       </div>
-      <p className="font-bold text-3xl mb-4">
+      <p className="font-bold text-3xl text-center mb-4">
         what some people think about my work
       </p>
       <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">

@@ -21,10 +21,12 @@ const ProjectSection = () => {
         <FaCube className="text-button-text size-5" />
       </div>
 
-      <p className="font-bold text-3xl mb-4">i've been a bit busy</p>
+      <p className="font-bold text-3xl text-center mb-4">
+        i've been a bit busy
+      </p>
       <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
         I love to work with the skills I develop. No skill is wasted on
-        inactivity. Ckeck out some of my coding and design projects here.
+        inactivity. Check out some of my coding and design projects here.
       </p>
 
       <div className="w-full flex items-center flex-col">
