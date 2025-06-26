@@ -30,7 +30,7 @@ const TestimonialSlider = () => {
         "Caleb is professional, creative, and attentive, making the process smooth and effective. His service and communication are outstanding. Highly recommended.",
     },
     {
-      name: "Makafui Bedra",
+      name: "Makafui Bedzra",
       title: "CEO, Cynosol Labs",
       comment:
         "Caleb is professional, creative, and attentive, making the process smooth and effective. His service and communication are outstanding. Highly recommended.",

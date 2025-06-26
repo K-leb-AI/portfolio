@@ -20,27 +20,12 @@ const ProjectSection = () => {
       <div className="flex items-center justify-center bg-button w-fit rounded-full p-3 mb-10">
         <FaCube className="text-button-text size-5" />
       </div>
-      {/* <TabGroup className="w-full flex items-center flex-col">
-        <TabList className="flex gap-6 w-fit bg-bg-2 rounded-full px-4 py-2">
-          <Tab className="flex items-center decoration-0 justify-center gap-2 data-selected:opacity-100 opacity-50">
-            <FaCode />
-            <p className="text-sm">Dev Projects</p>
-          </Tab>
-          <Tab className="flex items-center justify-center gap-2 data-selected:opacity-100 opacity-50">
-            <p className="text-sm">Design Projects</p>
-            <SiMaterialdesignicons />
-          </Tab>
-        </TabList>
-        <br />
-        <TabPanels>
-          <TabPanel className="">
-            <DevTab />
-          </TabPanel>
-          <TabPanel>
-            <DesignTab />
-          </TabPanel>
-        </TabPanels>
-      </TabGroup> */}
+
+      <p className="font-bold text-3xl mb-4">i've been a bit busy</p>
+      <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
+        I love to work with the skills I develop. No skill is wasted on
+        inactivity. Ckeck out some of my coding and design projects here.
+      </p>
 
       <div className="w-full flex items-center flex-col">
         <div className="flex items-center gap-1 w-fit bg-bg-2 rounded-full px-5 py-2 duration-300">

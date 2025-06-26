@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
-// import { CgFigma } from "react-icons/cg";
 import { FaArrowRight } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
 import { FaInstagram } from "react-icons/fa";
@@ -8,7 +7,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-import image from "../assets/profile.jpg";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import animation from "../assets/cat.lottie";
 
