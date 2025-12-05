@@ -27,7 +27,11 @@ const Sidebar = () => {
             tooltip="LinkedIn"
             component={
               <SquareButtons
+<<<<<<< HEAD
                 icon={<FaLinkedinIn className="size-3 text-button-text" />}
+=======
+                icon={<FaLinkedinIn className="size-5 text-button-text" />}
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
               />
             }
           />
@@ -44,7 +48,11 @@ const Sidebar = () => {
               tooltip="Instagram"
               component={
                 <SquareButtons
+<<<<<<< HEAD
                   icon={<FaInstagram className="size-3 text-button-text" />}
+=======
+                  icon={<FaInstagram className="size-5 text-button-text" />}
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
                 />
               }
             />
@@ -61,7 +69,11 @@ const Sidebar = () => {
               tooltip="Github"
               component={
                 <SquareButtons
+<<<<<<< HEAD
                   icon={<FaGithub className="size-3 text-button-text" />}
+=======
+                  icon={<FaGithub className="size-5 text-button-text" />}
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
                 />
               }
             />
@@ -75,7 +87,11 @@ const Sidebar = () => {
           component={
             <a href={CVUrl} download={true}>
               <SquareButtons
+<<<<<<< HEAD
                 icon={<FaFileDownload className="size-3 text-button-text" />}
+=======
+                icon={<FaFileDownload className="size-5 text-button-text" />}
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
               />
             </a>
           }

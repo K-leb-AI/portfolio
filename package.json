@@ -19,8 +19,13 @@
     "@tailwindcss/vite": "^4.1.7",
     "@types/three": "^0.176.0",
     "framer-motion": "^12.16.0",
+<<<<<<< HEAD
     "motion": "^12.23.25",
     "next-themes": "^0.4.6",
+=======
+    "next-themes": "^0.4.6",
+    "particles.js": "^2.0.0",
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

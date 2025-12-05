@@ -21,12 +21,21 @@ const ProjectSection = () => {
         <FaCube className="text-button-text size-5" />
       </div>
 
+<<<<<<< HEAD
       <p className="font-bold text-3xl text-center mb-2">
         i've been a bit busy
       </p>
       <p className="font-light text-center text-white-2 text-xs w-full lg:w-2/3 leading-5 font-mono mb-10">
         I love to work with the skills I develop. No skill is wasted on
         idleness. Check out some of my coding and design projects here.
+=======
+      <p className="font-bold text-3xl text-center mb-4">
+        i've been a bit busy
+      </p>
+      <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
+        I love to work with the skills I develop. No skill is wasted on
+        inactivity. Check out some of my coding and design projects here.
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
       </p>
 
       <div className="w-full flex items-center flex-col">

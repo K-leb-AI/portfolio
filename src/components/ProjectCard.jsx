@@ -11,7 +11,11 @@ const ProjectCard = (props) => {
         props.activeIndex == props.index ? "bg-bg-2" : "bg-bg-2/30"
       } hover:bg-bg-2 duration-1000 ease-in-out backdrop-blur-xs border border-border p-5 cursor-pointer`}
     >
+<<<<<<< HEAD
       <div className="absolute top-0 left-0 font-extrabold text-9xl text-white/20 block z-0 -translate-y-16 blur-xl opacity-0 group-hover:opacity-20 group-hover:translate-y-0 duration-300 group-hover:blur-none leading-25">
+=======
+      <div className="absolute top-0 left-0 font-extrabold text-9xl text-white/20 block z-0 -translate-y-16 blur-xl opacity-0 group-hover:opacity-20 group-hover:translate-y-0 duration-300 group-hover:blur-none">
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
         {props.title}
       </div>
 
@@ -23,7 +27,11 @@ const ProjectCard = (props) => {
           {props.title}
         </p>
         {
+<<<<<<< HEAD
           <div className="flex gap-1 flex-wrap">
+=======
+          <div className="flex gap-2 flex-wrap">
+>>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
             {props.stack.map((item, index) => (
               <SquareButtons
                 key={index}
