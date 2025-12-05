@@ -1,13 +1,9 @@
 import React from "react";
-import { LuSun } from "react-icons/lu";
-import { LuMoon } from "react-icons/lu";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
-import { useState } from "react";
 import Tooltip from "./Tooltip";
-import CVUrl from "../../public/Caleb Nii Lantei Lamptey.pdf";
 
 import SquareButtons from "./SquareButtons";
 
@@ -27,11 +23,7 @@ const Sidebar = () => {
             tooltip="LinkedIn"
             component={
               <SquareButtons
-<<<<<<< HEAD
                 icon={<FaLinkedinIn className="size-3 text-button-text" />}
-=======
-                icon={<FaLinkedinIn className="size-5 text-button-text" />}
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
               />
             }
           />
@@ -48,11 +40,7 @@ const Sidebar = () => {
               tooltip="Instagram"
               component={
                 <SquareButtons
-<<<<<<< HEAD
                   icon={<FaInstagram className="size-3 text-button-text" />}
-=======
-                  icon={<FaInstagram className="size-5 text-button-text" />}
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
                 />
               }
             />
@@ -69,11 +57,7 @@ const Sidebar = () => {
               tooltip="Github"
               component={
                 <SquareButtons
-<<<<<<< HEAD
                   icon={<FaGithub className="size-3 text-button-text" />}
-=======
-                  icon={<FaGithub className="size-5 text-button-text" />}
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
                 />
               }
             />
@@ -85,13 +69,9 @@ const Sidebar = () => {
         <Tooltip
           tooltip="Download CV"
           component={
-            <a href={CVUrl} download={true}>
+            <a href="Caleb Nii Lantei Lamptey.pdf" download={true}>
               <SquareButtons
-<<<<<<< HEAD
                 icon={<FaFileDownload className="size-3 text-button-text" />}
-=======
-                icon={<FaFileDownload className="size-5 text-button-text" />}
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
               />
             </a>
           }

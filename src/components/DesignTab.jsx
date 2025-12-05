@@ -10,7 +10,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import animation from "../assets/cat.lottie";
 
-<<<<<<< HEAD
 import oak1 from "../assets/oak/1.png";
 import oak2 from "../assets/oak/2.png";
 import oak3 from "../assets/oak/3.png";
@@ -21,8 +20,6 @@ import oak7 from "../assets/oak/7.png";
 import oak8 from "../assets/oak/8.png";
 import oak9 from "../assets/oak/9.png";
 
-=======
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
 import bean1 from "../assets/Bean/1.jpg";
 import bean2 from "../assets/Bean/2.jpg";
 import bean3 from "../assets/Bean/3.jpg";
@@ -31,10 +28,6 @@ import bean4 from "../assets/Bean/4.jpg";
 import drokemy1 from "../assets/drokemy/1.jpg";
 import drokemy2 from "../assets/drokemy/2.jpg";
 import drokemy3 from "../assets/drokemy/3.jpg";
-<<<<<<< HEAD
-=======
-import drokemy4 from "../assets/drokemy/4.jpg";
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
 
 import eav1 from "../assets/EAV/1.jpeg";
 import eav2 from "../assets/EAV/2.png";
@@ -84,7 +77,6 @@ const DesignTab = (props) => {
   const [activeIndex, setActiveIndex] = useState();
   const designItems = [
     {
-<<<<<<< HEAD
       title: "the oak tree diaries",
       stack: [
         <SiAdobephotoshop className="text-button-text size-4" />,
@@ -93,8 +85,6 @@ const DesignTab = (props) => {
       pictures: [oak1, oak2, oak3, oak4, oak5, oak6, oak7, oak8, oak9],
     },
     {
-=======
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
       title: "stunning concepts",
       stack: [<SiAdobephotoshop className="text-button-text size-4" />],
       pictures: [
@@ -120,11 +110,7 @@ const DesignTab = (props) => {
         <SiAdobeillustrator className="text-button-text size-4" />,
         <SiAdobephotoshop className="text-button-text size-4" />,
       ],
-<<<<<<< HEAD
       pictures: [drokemy1, drokemy2, drokemy3],
-=======
-      pictures: [drokemy1, drokemy2, drokemy3, drokemy4],
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
     },
     {
       title: "the Godly nation",
@@ -232,17 +218,10 @@ const DesignTab = (props) => {
         <div className="size-14 rounded-full bg-white flex items-center justify-center mb-5">
           {<FaArrowRight className="text-bg-1" />}
         </div>
-<<<<<<< HEAD
         <p className="text-2xl xl:text-4xl leading-6 xl:leading-10 font-bold mb-4">
           i'm kind of an artist too!
         </p>
         <p className="text-md font-extralight">
-=======
-        <p className="text-2xl xl:text-5xl leading-6 xl:leading-10 font-bold mb-4">
-          i'm kind of an artist too!
-        </p>
-        <p className="text-md font-extralight font-mono">
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           Take a look at some of my works.
         </p>
       </div>

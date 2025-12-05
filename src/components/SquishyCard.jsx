@@ -1,10 +1,7 @@
 import { motion } from "framer-motion";
 import { RiDoubleQuotesL } from "react-icons/ri";
-<<<<<<< HEAD
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
-=======
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
 
 const SquishyCard = (props) => {
   return (
@@ -23,13 +20,9 @@ const SquishyCard = (props) => {
     >
       <div className="relative z-10 text-white w-full">
         <div className="flex flex-col justify-center items-center gap-2">
-<<<<<<< HEAD
           <div className="w-20 aspect-square rounded-full bg-white grid place-items-center">
             <FaUser className="text-bg-2 opacity-30" size={35} />
           </div>
-=======
-          <div className="w-20 aspect-square rounded-full bg-white"></div>
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           <motion.span
             initial={{ scale: 0.85 }}
             variants={{
@@ -48,11 +41,7 @@ const SquishyCard = (props) => {
         </div>
         <p className="text-xs text-white-2 text-center"> {props.title}</p>
         <RiDoubleQuotesL className="absolute top-0 left-0 size-7" />
-<<<<<<< HEAD
         <p className="italic text-sm mt-8 pl-3 border-l-2 border-white text-white/70">
-=======
-        <p className="italic text-sm mt-8 pl-3 border-l-2 border-white text-white-2">
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           "{props.comment}"
         </p>
       </div>

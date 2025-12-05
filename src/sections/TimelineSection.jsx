@@ -13,17 +13,10 @@ const TimelineSection = () => {
         <MdOutlineTimeline className="text-button-text size-5" />
       </div>
 
-<<<<<<< HEAD
       <p className="font-bold text-3xl text-center mb-2">
         it's been quite a journey
       </p>
       <p className="font-light text-center text-white-2 text-xs w-full lg:w-2/3 leading-6 font-mono mb-10">
-=======
-      <p className="font-bold text-3xl text-center mb-4">
-        it's been quite a journey
-      </p>
-      <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
         Here, you'll find what I've been up to in academia and in industry.
       </p>
 

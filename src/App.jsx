@@ -4,10 +4,6 @@ import Sidebar from "./components/Sidebar";
 import LeftBlob from "./components/LeftBlob";
 import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
-<<<<<<< HEAD
-=======
-import ParticleRing from "./components/ParticleRing";
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
 import ProjectSection from "./sections/ProjectSection";
 import TimelineSection from "./sections/TimelineSection";
 import Testimonials from "./sections/Testimonials";
@@ -60,12 +56,6 @@ const Logo = () => {
 };
 
 const App = () => {
-<<<<<<< HEAD
-=======
-  particlesJS.load("particles-js", "particles.json", function () {
-    console.log("callback - particles.js config loaded");
-  });
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
   return (
     <>
       <Toaster
@@ -81,25 +71,13 @@ const App = () => {
           <Navbar />
         </div>
         <Sidebar />
-<<<<<<< HEAD
-
-=======
-        <LeftBlob size="30" />
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
-        <div className="absolute top-8 flex justify-center sm:justify-start sm:pl-30 w-full">
+        <div className="absolute top-8 flex justify-center sm:justify-start pl-10 sm:pl-50 w-4/5">
           <Logo />
         </div>
 
         <Theme />
-<<<<<<< HEAD
       </div>
       <div className="pl-10 pr-10 lg:pl-50 lg:pr-50 h-fit w-full bg-bg-1">
-=======
-
-        <ParticleRing />
-      </div>
-      <div className="pl-10 pr-10 sm:pl-30 sm:pr-30 h-fit w-full bg-bg-1">
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
         <HeroSection />
         <AboutSection />
         <ProjectSection />

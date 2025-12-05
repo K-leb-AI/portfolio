@@ -11,17 +11,10 @@ const Testimonials = () => {
       <div className="flex items-center justify-center bg-button w-fit rounded-full p-4 mb-10">
         <FaCommentAlt className="text-button-text size-4" />
       </div>
-<<<<<<< HEAD
       <p className="font-bold text-3xl text-center mb-2">
         what some people think about my work
       </p>
       <p className="font-light text-center text-white-2 text-xs w-full lg:w-2/3 leading-6 font-mono mb-10">
-=======
-      <p className="font-bold text-3xl text-center mb-4">
-        what some people think about my work
-      </p>
-      <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
         I'm grateful to have worked with and for a number of people over the
         years and this is what they have to say about me.
       </p>

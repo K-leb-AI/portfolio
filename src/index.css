@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Tangerine:wght@400;700&display=swap");
-=======
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
 @import "tailwindcss";
 
 @theme {
@@ -16,11 +13,7 @@
   --color-white-2: var(--white-2);
   --color-squish: var(--squish);
   --color-button-text: var(--button-text);
-<<<<<<< HEAD
   --font-family: "Rethink Sans", "Albert Sans", sans-serif;
-=======
-  --font-family: "Albert Sans", sans-serif;
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
   --font-mono: "IBM Plex Mono", monospace;
   --font-cursive: "Tangerine", cursive;
 }
@@ -55,24 +48,15 @@ body {
 }
 
 .dark {
-<<<<<<< HEAD
   --bg-1: #050607;
-=======
-  --bg-1: #0e1217;
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
   --bg-2: #151b22;
   --bg-3: #4d596a3c;
   --button: #262e39;
   --button-hover: #2b3849;
   --border: #2d3135;
   --accent: #25d3ff;
-<<<<<<< HEAD
   --white: #dcebfe;
   --white-2: #637d9d;
-=======
-  --white: #c1d0e2;
-  --white-2: #b1b1b1;
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
   --button-text: #4d596a;
   --squish: #12161c;
 }

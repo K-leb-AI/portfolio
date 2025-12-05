@@ -13,17 +13,10 @@ const Theme = () => {
   const themes = [
     { name: "dark", color: "#1f2937" },
     { name: "light", color: "#f9fafb" },
-<<<<<<< HEAD
     // { name: "coffee", color: "#f59e0b" },
     // { name: "forest", color: "#10b981" },
     // // { name: "sunset", color: "#f97316" },
     // { name: "purple", color: "#a855f7" },
-=======
-    { name: "coffee", color: "#f59e0b" },
-    { name: "forest", color: "#10b981" },
-    // { name: "sunset", color: "#f97316" },
-    { name: "purple", color: "#a855f7" },
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
   ];
 
   // Apply theme on component mount and when activeTheme changes
@@ -84,15 +77,11 @@ const Theme = () => {
       {/* Theme Toggle Button */}
       <div
         ref={buttonRef}
-        className="w-[45px] rounded-lg aspect-square flex z-[100] items-center justify-center bg-button hover:bg-button-hover transition-all duration-200 cursor-pointer ease-in"
+        className="w-[40px] rounded-lg aspect-square flex z-[100] items-center justify-center bg-button hover:bg-button-hover transition-all duration-200 cursor-pointer ease-in"
         onClick={toggleMenu}
         aria-label="Toggle theme menu"
       >
-<<<<<<< HEAD
         <VscSettings className="size-4 text-button-text" />
-=======
-        <VscSettings className="size-5 text-button-text" />
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
       </div>
 
       {/* Theme Selection Menu */}
@@ -113,16 +102,11 @@ const Theme = () => {
               onClick={(e) => handleThemeSelect(theme.name, e)}
             >
               <div
-<<<<<<< HEAD
                 className="w-6 sm:w-4 aspect-square rounded-full border not-[]:"
                 style={{
                   backgroundColor: theme.color,
                   opacity: "60%",
                 }}
-=======
-                className="w-6 sm:w-4 aspect-square rounded-full"
-                style={{ backgroundColor: theme.color, opacity: "60%" }}
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
               />
               <span className="hidden sm:flex flex-1">{theme.name}</span>
               {activeTheme === theme.name && (

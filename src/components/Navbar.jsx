@@ -101,11 +101,7 @@ const Navbar = () => {
     <div className="flex justify-center relative z-50">
       <nav
         ref={navRef}
-<<<<<<< HEAD
         className={`bg-bg-2/50 backdrop-blur-xs border border-white/5 h-14 flex justify-center items-center fixed rounded-full w-fit ${
-=======
-        className={`bg-bg-2/50 backdrop-blur-xs h-14 flex justify-center items-center fixed rounded-full w-fit ${
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           isSmall ? "pr-2 pl-2 bottom-10" : "pr-4 pl-5 top-4"
         }`}
       >

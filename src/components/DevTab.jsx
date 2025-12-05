@@ -11,11 +11,8 @@ import toast from "react-hot-toast";
 import {
   SiMongodb,
   SiExpress,
-<<<<<<< HEAD
   SiSupabase,
   SiNextdotjs,
-=======
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
   SiAdobephotoshop,
   SiAdobeillustrator,
 } from "react-icons/si";
@@ -64,7 +61,6 @@ const DevTab = () => {
           I promise, they don’t disappoint!
         </p>
       </div>
-<<<<<<< HEAD
       <a href="https://nunyalearnersarena.vercel.app" target="_blank">
         <ProjectCard
           title="nunya"
@@ -78,17 +74,11 @@ const DevTab = () => {
           ]}
         />
       </a>
-=======
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
       <a href="https://chatty-pkxt.onrender.com/login" target="_blank">
         <ProjectCard
           title="chatty!"
           activeIndex="0"
-<<<<<<< HEAD
           index="2"
-=======
-          index="1"
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text xl:size-4 size-3" />,
@@ -104,11 +94,7 @@ const DevTab = () => {
         <ProjectCard
           title="uplist"
           activeIndex="0"
-<<<<<<< HEAD
           index="3"
-=======
-          index="1"
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text size-4" />,
@@ -127,20 +113,12 @@ const DevTab = () => {
         <ProjectCard
           title="signify"
           activeIndex="0"
-<<<<<<< HEAD
           index="4"
-=======
-          index="1"
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           icon={<FaLinkedinIn className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text size-4" />,
             <SiExpress className="text-button-text size-4" />,
             <FaReact className="text-button-text size-4" />,
-<<<<<<< HEAD
-=======
-            <FaNodeJs className="text-button-text size-4" />,
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
             <RiTailwindCssFill className="text-button-text size-4" />,
             <CgFigma className="text-button-text size-4" />,
             <SiArduino className="text-button-text size-4" />,
@@ -151,11 +129,7 @@ const DevTab = () => {
         <ProjectCard
           title="bookworm"
           activeIndex="0"
-<<<<<<< HEAD
           index="5"
-=======
-          index="1"
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text size-4" />,
@@ -171,11 +145,7 @@ const DevTab = () => {
         <ProjectCard
           title="my portfolio"
           activeIndex="0"
-<<<<<<< HEAD
           index="6"
-=======
-          index="1"
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <FaReact className="text-button-text size-4" />,
@@ -188,11 +158,7 @@ const DevTab = () => {
         <ProjectCard
           title="foodie"
           activeIndex="0"
-<<<<<<< HEAD
           index="7"
-=======
-          index="1"
->>>>>>> 1d46f6d440240a50b97cba0b1e2bb510d14f0400
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <IoLogoJavascript className="text-button-text size-4" />,
