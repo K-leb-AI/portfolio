@@ -16,7 +16,7 @@ const HeroSection = () => {
         <motion.div
           className=""
           initial={{ filter: "blur(10px)", translateY: 20, opacity: 0 }}
-          animate={{ filter: "none", translateY: 0, opacity: 100 }}
+          whileInView={{ filter: "none", translateY: 0, opacity: 100 }}
           transition={{ duration: 1.2 }}
         >
           <p className="text-lg sm:text-xl mb-2 flex sm:justify-center mt-20">
@@ -29,7 +29,7 @@ const HeroSection = () => {
         <div className="flex flex-col sm:items-center w-full">
           <motion.div
             initial={{ filter: "blur(10px)", translateY: 20, opacity: 0 }}
-            animate={{ filter: "none", translateY: 0, opacity: 100 }}
+            whileInView={{ filter: "none", translateY: 0, opacity: 100 }}
             transition={{ duration: 1, delay: 0.5 }}
             className="w-full sm:w-4/5 font-light text-xs sm:text-md text-white-2 text-justify sm:max-w-2xl sm:text-center leading-5 mb-4"
           >
@@ -40,7 +40,7 @@ const HeroSection = () => {
           <motion.div
             className="flex gap-2"
             initial={{ filter: "blur(10px)", translateY: 20, opacity: 0 }}
-            animate={{ filter: "none", translateY: 0, opacity: 100 }}
+            whileInView={{ filter: "none", translateY: 0, opacity: 100 }}
             transition={{ duration: 1, delay: 1 }}
           >
             <a
@@ -64,7 +64,7 @@ const HeroSection = () => {
         <div className="flex w-full justify-center items-center">
           <motion.div
             initial={{ scale: 0.4 }}
-            animate={{ scale: 1 }}
+            whileInView={{ scale: 1 }}
             transition={{
               duration: 6,
               ease: [0, 0.71, 0.2, 1.01],
