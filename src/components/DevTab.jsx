@@ -84,7 +84,7 @@ const DevTab = () => {
         <ProjectCard
           title="chatty!"
           activeIndex="0"
-          index="1"
+          index="2"
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text xl:size-4 size-3" />,
@@ -100,7 +100,7 @@ const DevTab = () => {
         <ProjectCard
           title="uplist"
           activeIndex="0"
-          index="1"
+          index="3"
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text size-4" />,
@@ -119,7 +119,7 @@ const DevTab = () => {
         <ProjectCard
           title="signify"
           activeIndex="0"
-          index="1"
+          index="4"
           icon={<FaLinkedinIn className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text size-4" />,
@@ -135,7 +135,7 @@ const DevTab = () => {
         <ProjectCard
           title="bookworm"
           activeIndex="0"
-          index="1"
+          index="5"
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <SiMongodb className="text-button-text size-4" />,
@@ -151,7 +151,7 @@ const DevTab = () => {
         <ProjectCard
           title="my portfolio"
           activeIndex="0"
-          index="1"
+          index="6"
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <FaReact className="text-button-text size-4" />,
@@ -164,7 +164,7 @@ const DevTab = () => {
         <ProjectCard
           title="foodie"
           activeIndex="0"
-          index="1"
+          index="7"
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <IoLogoJavascript className="text-button-text size-4" />,

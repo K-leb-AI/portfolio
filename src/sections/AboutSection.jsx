@@ -15,7 +15,6 @@ import { CgFigma } from "react-icons/cg";
 import zustandIcon from "../assets/zustandIcon-purple.svg";
 import TiltCard from "../components/HoverCard";
 import profile from "../assets/profile.jpg";
-import RightBlob from "../components/RightBlob";
 
 // Reusable badge component
 const TechBadge = ({ icon, name, borderColor, bgColor, textColor }) => (
@@ -125,7 +124,7 @@ const AboutSection = () => {
         <IoIosInformationCircle className="text-button-text size-3" />
       </div> */}
 
-      <div className="w-full flex lg:flex-row flex-col justify-between bg-bg-2 rounded-3xl px-4 py-3">
+      <div className="w-full flex lg:flex-row flex-col justify-between lg:bg-bg-2 rounded-3xl lg:px-4 lg:py-3">
         <div className="w-full lg:w-19/40">
           <div className="flex w-full flex-col lg:flex-row justify-between pt-6">
             <div className="w-full lg:w-9/20 aspect-square border border-border bg-bg-2 rounded-2xl">
@@ -165,7 +164,7 @@ const AboutSection = () => {
           </div>
         </div>
         <br />
-        <div className="w-full lg:w-[50%] aspect-[3/10] sm:aspect-[2/5] md:aspect-[3/5] lg:aspect-auto max-h-[750px] rounded-lg overflow-hidden">
+        <div className="hidden md:block w-full lg:w-[50%] aspect-3/10 sm:aspect-2/5 md:aspect-3/5 lg:aspect-auto max-h-[750px] rounded-lg overflow-hidden">
           <TiltCard />
         </div>
       </div>
