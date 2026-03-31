@@ -58,7 +58,7 @@ const DevTab = () => {
         <ProjectCard
           title="liora vita"
           activeIndex="0"
-          index="0"
+          index="1"
           icon={<FaGithub className="text-button-text size-5" />}
           stack={[
             <RiTailwindCssFill className="text-button-text xl:size-4 size-3" />,
