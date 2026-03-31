@@ -57,9 +57,9 @@ const Logo = () => {
 };
 
 const App = () => {
-  particlesJS.load("particles-js", "particles.json", function () {
-    console.log("callback - particles.js config loaded");
-  });
+  // particlesJS.load("particles-js", "particles.json", function () {
+  //   console.log("callback - particles.js config loaded");
+  // });
   return (
     <>
       <Toaster
@@ -75,16 +75,18 @@ const App = () => {
           <Navbar />
         </div>
         <Sidebar />
-        <LeftBlob size="30" />
+        <div
+          className={`absolute h-150 w-220 opacity-25 bg-accent rounded-full -bottom-1/2 left-1/6 backdrop-blur-xl blur-3xl`}
+        ></div>
         <div className="absolute top-8 flex justify-center sm:justify-start sm:pl-30 w-full">
           <Logo />
         </div>
 
         <Theme />
 
-        <ParticleRing />
+        {/* <ParticleRing /> */}
       </div>
-      <div className="pl-10 pr-10 sm:pl-30 sm:pr-30 h-fit w-full bg-bg-1">
+      <div className="pl-10 pr-10 sm:pl-50 sm:pr-50 h-fit w-full bg-bg-1">
         <HeroSection />
         <AboutSection />
         <ProjectSection />

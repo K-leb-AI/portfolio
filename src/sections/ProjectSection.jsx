@@ -24,9 +24,9 @@ const ProjectSection = () => {
       <p className="font-bold text-3xl text-center mb-4">
         i've been a bit busy
       </p>
-      <p className="font-light text-center text-white-2 text-sm w-full lg:w-2/3 leading-6 font-mono mb-10">
+      <p className="font-light text-center text-white-2 text-xs w-full lg:w-2/3 leading-5 font-mono mb-10">
         I love to work with the skills I develop. No skill is wasted on
-        inactivity. Check out some of my coding and design projects here.
+        idleness. Check out some of my coding and design projects here.
       </p>
 
       <div className="w-full flex items-center flex-col">

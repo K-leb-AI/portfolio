@@ -13,10 +13,10 @@ const Theme = () => {
   const themes = [
     { name: "dark", color: "#1f2937" },
     { name: "light", color: "#f9fafb" },
-    { name: "coffee", color: "#f59e0b" },
-    { name: "forest", color: "#10b981" },
-    // { name: "sunset", color: "#f97316" },
-    { name: "purple", color: "#a855f7" },
+    // { name: "coffee", color: "#f59e0b" },
+    // { name: "forest", color: "#10b981" },
+    // // { name: "sunset", color: "#f97316" },
+    // { name: "purple", color: "#a855f7" },
   ];
 
   // Apply theme on component mount and when activeTheme changes
@@ -81,7 +81,7 @@ const Theme = () => {
         onClick={toggleMenu}
         aria-label="Toggle theme menu"
       >
-        <VscSettings className="size-5 text-button-text" />
+        <VscSettings className="size-4 text-button-text" />
       </div>
 
       {/* Theme Selection Menu */}
@@ -102,8 +102,11 @@ const Theme = () => {
               onClick={(e) => handleThemeSelect(theme.name, e)}
             >
               <div
-                className="w-6 sm:w-4 aspect-square rounded-full"
-                style={{ backgroundColor: theme.color, opacity: "60%" }}
+                className="w-6 sm:w-4 aspect-square rounded-full border not-[]:"
+                style={{
+                  backgroundColor: theme.color,
+                  opacity: "60%",
+                }}
               />
               <span className="hidden sm:flex flex-1">{theme.name}</span>
               {activeTheme === theme.name && (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import { DiPhotoshop, DiIllustrator } from "react-icons/di";
 import { FaArrowRight } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
 import { FaInstagram } from "react-icons/fa";
@@ -69,7 +69,7 @@ const DesignTab = (props) => {
   const designItems = [
     {
       title: "stunning concepts",
-      stack: [<SiAdobephotoshop className="text-button-text size-4" />],
+      stack: [<DiPhotoshop className="text-button-text size-4" />],
       pictures: [
         stunning1,
         stunning2,
@@ -90,48 +90,48 @@ const DesignTab = (props) => {
     {
       title: "drokemy",
       stack: [
-        <SiAdobeillustrator className="text-button-text size-4" />,
-        <SiAdobephotoshop className="text-button-text size-4" />,
+        <DiIllustrator className="text-button-text size-4" />,
+        <DiPhotoshop className="text-button-text size-4" />,
       ],
       pictures: [drokemy1, drokemy2, drokemy3, drokemy4],
     },
     {
       title: "the Godly nation",
       stack: [
-        <SiAdobeillustrator className="text-button-text size-4" />,
-        <SiAdobephotoshop className="text-button-text size-4" />,
+        <DiIllustrator className="text-button-text size-4" />,
+        <DiPhotoshop className="text-button-text size-4" />,
       ],
       pictures: [tgn1, tgn2, tgn3, tgn4],
     },
     {
       title: "bean bliss",
       stack: [
-        <SiAdobeillustrator className="text-button-text size-4" />,
-        <SiAdobephotoshop className="text-button-text size-4" />,
+        <DiIllustrator className="text-button-text size-4" />,
+        <DiPhotoshop className="text-button-text size-4" />,
       ],
       pictures: [bean1, bean2, bean3, bean4],
     },
     {
       title: "the steam hub",
       stack: [
-        <SiAdobeillustrator className="text-button-text size-4" />,
-        <SiAdobephotoshop className="text-button-text size-4" />,
+        <DiIllustrator className="text-button-text size-4" />,
+        <DiPhotoshop className="text-button-text size-4" />,
       ],
       pictures: [steam1, steam2, steam3, steam4],
     },
     {
       title: "ea villa",
       stack: [
-        <SiAdobeillustrator className="text-button-text size-4" />,
-        <SiAdobephotoshop className="text-button-text size-4" />,
+        <DiIllustrator className="text-button-text size-4" />,
+        <DiPhotoshop className="text-button-text size-4" />,
       ],
       pictures: [eav1, eav2, eav3, eav4, eav5],
     },
     {
       title: "other works",
       stack: [
-        <SiAdobeillustrator className="text-button-text size-4" />,
-        <SiAdobephotoshop className="text-button-text size-4" />,
+        <DiIllustrator className="text-button-text size-4" />,
+        <DiPhotoshop className="text-button-text size-4" />,
       ],
       pictures: [
         other1,
@@ -201,10 +201,10 @@ const DesignTab = (props) => {
         <div className="size-14 rounded-full bg-white flex items-center justify-center mb-5">
           {<FaArrowRight className="text-bg-1" />}
         </div>
-        <p className="text-2xl xl:text-5xl leading-6 xl:leading-10 font-bold mb-4">
+        <p className="text-2xl xl:text-4xl leading-6 xl:leading-10 font-bold mb-4">
           i'm kind of an artist too!
         </p>
-        <p className="text-md font-extralight font-mono">
+        <p className="text-md font-extralight">
           Take a look at some of my works.
         </p>
       </div>

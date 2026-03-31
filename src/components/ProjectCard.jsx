@@ -23,7 +23,7 @@ const ProjectCard = (props) => {
           {props.title}
         </p>
         {
-          <div className="flex gap-2 flex-wrap">
+          <div className="flex gap-1 flex-wrap">
             {props.stack.map((item, index) => (
               <SquareButtons
                 key={index}

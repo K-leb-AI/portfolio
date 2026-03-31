@@ -5,15 +5,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaReact, FaHtml5, FaNodeJs, FaArrowRight } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiArduino } from "react-icons/si";
+import { SiArduino, SiGsap } from "react-icons/si";
 
 import toast from "react-hot-toast";
-import {
-  SiMongodb,
-  SiExpress,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
-} from "react-icons/si";
+import { SiMongodb, SiExpress, SiSupabase, SiNextdotjs } from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import zustandIcon from "../assets/zustandIcon.svg";
 const ZustandLogo = (props) => {
@@ -59,6 +54,32 @@ const DevTab = () => {
           I promise, they don’t disappoint!
         </p>
       </div>
+      <a href="https://thelvway.vercel.app/" target="_blank">
+        <ProjectCard
+          title="liora vita"
+          activeIndex="0"
+          index="0"
+          icon={<FaGithub className="text-button-text size-5" />}
+          stack={[
+            <RiTailwindCssFill className="text-button-text xl:size-4 size-3" />,
+            <FaReact className="text-button-text xl:size-4 size-3" />,
+            <SiGsap className="text-button-text xl:size-4 size-3" />,
+          ]}
+        />
+      </a>
+      <a href="https://nunyalearnersarena.vercel.app" target="_blank">
+        <ProjectCard
+          title="nunya"
+          activeIndex="0"
+          index="1"
+          icon={<FaGithub className="text-button-text size-5" />}
+          stack={[
+            <RiTailwindCssFill className="text-button-text xl:size-4 size-3" />,
+            <FaReact className="text-button-text xl:size-4 size-3" />,
+            <SiSupabase className="text-button-text xl:size-4 size-3" />,
+          ]}
+        />
+      </a>
       <a href="https://chatty-pkxt.onrender.com/login" target="_blank">
         <ProjectCard
           title="chatty!"
@@ -104,7 +125,6 @@ const DevTab = () => {
             <SiMongodb className="text-button-text size-4" />,
             <SiExpress className="text-button-text size-4" />,
             <FaReact className="text-button-text size-4" />,
-            <FaNodeJs className="text-button-text size-4" />,
             <RiTailwindCssFill className="text-button-text size-4" />,
             <CgFigma className="text-button-text size-4" />,
             <SiArduino className="text-button-text size-4" />,

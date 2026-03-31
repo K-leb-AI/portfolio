@@ -27,7 +27,7 @@ const Sidebar = () => {
             tooltip="LinkedIn"
             component={
               <SquareButtons
-                icon={<FaLinkedinIn className="size-5 text-button-text" />}
+                icon={<FaLinkedinIn className="size-3 text-button-text" />}
               />
             }
           />
@@ -44,7 +44,7 @@ const Sidebar = () => {
               tooltip="Instagram"
               component={
                 <SquareButtons
-                  icon={<FaInstagram className="size-5 text-button-text" />}
+                  icon={<FaInstagram className="size-3 text-button-text" />}
                 />
               }
             />
@@ -61,7 +61,7 @@ const Sidebar = () => {
               tooltip="Github"
               component={
                 <SquareButtons
-                  icon={<FaGithub className="size-5 text-button-text" />}
+                  icon={<FaGithub className="size-3 text-button-text" />}
                 />
               }
             />
@@ -75,7 +75,7 @@ const Sidebar = () => {
           component={
             <a href={CVUrl} download={true}>
               <SquareButtons
-                icon={<FaFileDownload className="size-5 text-button-text" />}
+                icon={<FaFileDownload className="size-3 text-button-text" />}
               />
             </a>
           }
