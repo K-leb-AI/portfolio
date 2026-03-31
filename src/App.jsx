@@ -76,7 +76,7 @@ const App = () => {
         </div>
         <Sidebar />
         <div
-          className={`absolute h-150 w-220 opacity-25 bg-accent rounded-full -bottom-1/2 left-1/6 backdrop-blur-xl blur-3xl`}
+          className={`hidden sm:absolute h-150 w-220 opacity-25 bg-accent rounded-full -bottom-1/2 left-1/6 backdrop-blur-xl blur-3xl`}
         ></div>
         <div className="absolute top-8 flex justify-center sm:justify-start sm:pl-30 w-full">
           <Logo />

@@ -70,7 +70,7 @@ const HeroSection = () => {
               ease: [0, 0.71, 0.2, 1.01],
               delay: 1.8,
             }}
-            className={`hidden md:block absolute h-40 w-50 md:h-140 md:w-200 bg-[#25d3ff] opacity-30 rounded-full -bottom-1/2 backdrop-blur-xl blur-3xl z-1`}
+            className="hidden md:block absolute h-40 w-50 md:h-140 md:w-200 bg-[#25d3ff] opacity-30 rounded-full -bottom-1/2 backdrop-blur-xl blur-3xl z-1"
           ></motion.div>
         </div>
       </div>

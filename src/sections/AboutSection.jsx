@@ -118,7 +118,7 @@ const AboutSection = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center w-full md:w-9/10 text-white z-10 relative p-1.5 rounded-3xl bg-white/20 backdrop-blur-xs border-white/30 border"
+      className="flex flex-col items-center w-full md:w-9/10 text-white z-10 relative sm:p-1.5 rounded-3xl sm:bg-white/20 backdrop-blur-xs border-white/30 sm:border"
     >
       {/* <div className="flex items-center justify-center bg-button w-fit rounded-full p-3">
         <IoIosInformationCircle className="text-button-text size-3" />
@@ -126,7 +126,7 @@ const AboutSection = () => {
 
       <div className="w-full flex lg:flex-row flex-col justify-between lg:bg-bg-2 rounded-3xl lg:px-4 lg:py-3">
         <div className="w-full lg:w-19/40">
-          <div className="flex w-full flex-col lg:flex-row justify-between pt-6">
+          <div className="flex w-full flex-col lg:flex-row justify-between sm:pt-6">
             <div className="w-full lg:w-9/20 aspect-square border border-border bg-bg-2 rounded-2xl">
               <div
                 className="w-full h-full bg-cover bg-center rounded-2xl"
